@@ -1,0 +1,7 @@
+
+X	java:S106"9Replace this use of System.out or System.err by a logger.(¬ÿÀ„ÿÿÿÿÿ8¶šÖäÔ.
+X	java:S106"9Replace this use of System.out or System.err by a logger.(²ŸÜÏÿÿÿÿÿ8¾òÔäÔ.
+¡
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛŒ¦…ıÿÿÿÿ8”ŸÌäÔ.
+G
+java:S1172",Remove this unused method parameter "event".(£™«§8¾òÔäÔ.

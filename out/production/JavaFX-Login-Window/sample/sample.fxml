@@ -19,7 +19,7 @@
         <Label text="Password:"
                GridPane.columnIndex="0" GridPane.rowIndex="1"
                GridPane.halignment="RIGHT"/>
-        <PasswordField id="password" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+        <PasswordField fx:id="password" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
 
         <HBox GridPane.columnIndex="0" GridPane.rowIndex="2"
               GridPane.columnSpan="2" alignment="CENTER"
@@ -27,7 +27,7 @@
 
             <children>
                 <Button text="Ok" onAction="#okAction"/>
-                <Button text="Cancel"/>
+                <Button fx:id="cancelButton" text="Cancel" onAction="#cancelAction"/>
             </children>
         </HBox>
     </children>

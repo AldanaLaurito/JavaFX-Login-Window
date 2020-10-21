@@ -20,5 +20,15 @@
                GridPane.columnIndex="0" GridPane.rowIndex="1"
                GridPane.halignment="RIGHT"/>
         <PasswordField id="password" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+        <HBox GridPane.columnIndex="0" GridPane.rowIndex="2"
+              GridPane.columnSpan="2" alignment="CENTER"
+              spacing="10">
+
+            <children>
+                <Button text="Ok"/>
+                <Button text="Cancel"/>
+            </children>
+        </HBox>
     </children>
 </GridPane>

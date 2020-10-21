@@ -15,5 +15,10 @@
         GridPane.columnIndex="0" GridPane.rowIndex="0"
         GridPane.halignment="RIGHT"/>
         <TextField id="username" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+
+        <Label text="Password:"
+               GridPane.columnIndex="0" GridPane.rowIndex="1"
+               GridPane.halignment="RIGHT"/>
+        <PasswordField id="password" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
     </children>
 </GridPane>

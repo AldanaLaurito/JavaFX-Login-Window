@@ -11,6 +11,9 @@
     </padding>
 
     <children>
-
+        <Label text="User name:"
+        GridPane.columnIndex="0" GridPane.rowIndex="0"
+        GridPane.halignment="RIGHT"/>
+        <TextField id="username" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
     </children>
 </GridPane>
